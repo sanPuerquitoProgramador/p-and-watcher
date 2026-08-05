@@ -93,3 +93,15 @@ Y ajusta los `case` dentro de los scripts.
 - Si ya estás dentro de tmux, `p` usa `switch-client` en vez de `attach`.
 - Los patrones están duplicados en los dos archivos. Si ajustas uno, ajusta el
   otro.
+
+## Ventana flotante (opcional, macOS + iTerm2)
+
+`kobold.json` es un perfil de iTerm que abre una ventana flotante, visible en
+todos los Spaces, con un atajo global (⌥Espacio por defecto).
+
+Para instalarlo: iTerm → Settings → Profiles → Other Actions → Import JSON
+Profiles.
+
+Después edita el perfil y cambia el campo Command (General → Command) para que
+apunte a tu host. Si ⌥Espacio ya lo usas para otra cosa, cámbialo en
+Profiles → Keys → Hotkey.
