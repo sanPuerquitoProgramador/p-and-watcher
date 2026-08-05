@@ -27,8 +27,8 @@ while true; do
   printf "\033[2m%s\033[0m\n\n" "$(date '+%H:%M:%S')"
   tmux list-sessions -F '#{session_name}' 2>/dev/null | sort | while read -r s; do
     st=""
-    case " $DONE " in *" $s "*) st="\033[2m✓ terminó\033[0m" ;; esac
-    case " $BUSY " in *" $s "*) st="\033[2m↓ trabajando\033[0m" ;; esac
+    case " $DONE " in *" $s "*) st="\033[32m✓ terminó\033[0m" ;; esac
+    case " $BUSY " in *" $s "*) st="\033[36m↓ trabajando\033[0m" ;; esac
     case " $WAIT " in *" $s "*) st="\033[1;33m⏸ TE ESPERA\033[0m" ;; esac
     printf "  %-16s $st\n" "$s"
   done
