@@ -53,7 +53,7 @@ while true; do
   PREV="$WAIT"
 
   # Ancho de la guía de puntos, según el nombre más largo.
-  WIDTH=8
+  WIDTH=15
   while read -r s; do
     [ ${#s} -gt $WIDTH ] && WIDTH=${#s}
   done <<< "$SESS"
@@ -78,7 +78,7 @@ while true; do
           elif [ $age -lt 3600 ]; then a="$((age / 60))m"
           else                         a="$((age / 3600))h"
           fi
-          st="⏸ TE ESPERA $a"; stc="1;33"; hot=1
+          st="⏸ esperando $a"; stc="1;33"; hot=1
           ;;
       esac
 

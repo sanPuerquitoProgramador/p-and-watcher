@@ -56,7 +56,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.97999999999999998
   },
-  "Columns" : 33,
+  "Columns" : 40,
   "Ansi 8 Color" : {
     "Red Component" : 0.40781760215759277,
     "Color Space" : "sRGB",
@@ -193,7 +193,7 @@
   "HotKey Window Dock Click Action" : 0,
   "BM Growl" : true,
   "Prompt Before Closing 2" : false,
-  "Command" : "ssh CAMBIAME-tu-host",
+  "Command" : "ssh mini-square",
   "Selected Text Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -268,11 +268,11 @@
   },
   "Custom Command" : "Yes",
   "Background Color (Dark)" : {
-    "Red Component" : 0.15686270594596863,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.21176469326019287,
+    "Red Component" : 0,
+    "Color Space" : "P3",
+    "Blue Component" : 0,
     "Alpha Component" : 1,
-    "Green Component" : 0.16470584273338318
+    "Green Component" : 0
   },
   "Ansi 9 Color" : {
     "Red Component" : 0.8659515380859375,
@@ -342,7 +342,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.66938728094100952
   },
-  "Description" : "Ventana flotante para watch de sesiones tmux",
+  "Description" : "Default",
   "Ansi 7 Color (Dark)" : {
     "Red Component" : 0.94509810209274292,
     "Color Space" : "sRGB",
@@ -359,7 +359,7 @@
     "Green Component" : 0.23660069704055786
   },
   "Name" : "Kobold",
-  "Transparency" : 0.12227136948529412,
+  "Transparency" : 0,
   "Horizontal Spacing" : 1,
   "Cursor Color (Dark)" : {
     "Red Component" : 0.91646724939346313,
@@ -594,6 +594,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.4927266538143158
   },
+  "Initial Use Transparency" : true,
   "Ansi 5 Color (Light)" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
